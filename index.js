@@ -12,8 +12,10 @@
 
 const component = require('./lib/component');
 const grid = require('./lib/grid');
+const store = require('./lib/store');
 
 module.exports = {
 	component,
 	grid,
+	store
 };
