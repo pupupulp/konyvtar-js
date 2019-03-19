@@ -11,7 +11,9 @@
  */
 
 const component = require('./lib/component');
+const grid = require('./lib/grid');
 
 module.exports = {
-	...component,
+	component,
+	grid,
 };
