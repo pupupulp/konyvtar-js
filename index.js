@@ -15,7 +15,10 @@ const grid = require('./lib/grid');
 const store = require('./lib/store');
 
 module.exports = {
-	component,
+	supportedVersion: '6.2.0',
+	component: {
+		...component
+	},
 	grid,
 	store
 };
