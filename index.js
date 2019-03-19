@@ -10,21 +10,8 @@
  * * const Kony = require('konyvtar-js');
  */
 
+const component = require('./lib/component');
+
 module.exports = {
-	component: {
-		/**
-		 * * Sample Usage:
-		 * * Kony.component.query('button[property = value]');
-		 */
-		query: (queryString) => {
-			return Ext.ComponentQuery.query(queryString)[0];
-		},
-		/**
-		 * * Sample Usage:
-		 * * Kony.component.reference('button', 'button-reference-value');
-		 */
-		reference: (component, reference) => {
-			return Ext.ComponentQuery.query(`${component}[reference = ${reference}]`)[0];
-		}
-	},
+	...component,
 };
