@@ -1,6 +1,6 @@
 {
   "name": "konyvtar-js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An opensource library/package of code wrappers for ExtJS 6.2.0 GPL",
   "main": "index.js",
   "engines": {
@@ -54,5 +54,8 @@
   "bugs": {
     "url": "https://github.com/pupupulp/konyvtar-js/issues"
   },
-  "homepage": "https://github.com/pupupulp/konyvtar-js#readme"
+  "homepage": "https://github.com/pupupulp/konyvtar-js#readme",
+  "dependencies": {
+    "stringify-object": "^3.3.0"
+  }
 }

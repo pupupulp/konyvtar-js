@@ -14,11 +14,13 @@ const component = require('./lib/component');
 const grid = require('./lib/grid');
 const store = require('./lib/store');
 
-module.exports = {
+const stringifyObject = require('stringify-object');
+
+const collection = {
 	supportedVersion: '6.2.0',
-	component: {
-		...component
-	},
+	component,
 	grid,
 	store
 };
+
+module.exports = stringifyObject(collection);
