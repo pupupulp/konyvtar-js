@@ -1,6 +1,6 @@
 {
   "name": "konyvtar-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An opensource library/package of code wrappers for ExtJS 6.2.0 GPL",
   "main": "index.js",
   "engines": {
@@ -15,7 +15,13 @@
     "url": "git+https://github.com/pupupulp/konyvtar-js.git"
   },
   "keywords": [
-    "ExtJS"
+    "extjs6.2",
+    "extjs6",
+    "extjs-6.2",
+    "extjs-6",
+    "extjs",
+    "ext",
+    "sencha"
   ],
   "author": {
     "name": "Eagan Martin",
