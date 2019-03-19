@@ -1,0 +1,22 @@
+{
+  "name": "konyvtar-js",
+  "version": "1.0.0",
+  "description": "An opensource library/package of code wrappers for ExtJS 6.2.0 GPL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupupulp/konyvtar-js.git"
+  },
+  "keywords": [
+    "ExtJS"
+  ],
+  "author": "Eagan Martin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pupupulp/konyvtar-js/issues"
+  },
+  "homepage": "https://github.com/pupupulp/konyvtar-js#readme"
+}
