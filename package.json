@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "An opensource library/package of code wrappers for ExtJS 6.2.0 GPL",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": ">=3.5.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +17,33 @@
   "keywords": [
     "ExtJS"
   ],
-  "author": "Eagan Martin",
+  "author": {
+    "name": "Eagan Martin",
+    "email": "mece.martinece@gmail.com",
+    "url": "https://github.com/pupupulp"
+  },
+  "contributors": [
+    {
+      "name": "Alfonse Dumadapat",
+      "email": "",
+      "url": "https://github.com/papipons"
+    },
+    {
+      "name": "Alona Ponce",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Jeff Canale",
+      "email": "",
+      "url": "https://github.com/je-poy"
+    },
+    {
+      "name": "Rey Anthony Paano",
+      "email": "",
+      "url": "https://github.com/reypaano"
+    }
+  ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/pupupulp/konyvtar-js/issues"
