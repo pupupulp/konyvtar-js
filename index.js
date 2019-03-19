@@ -23,5 +23,4 @@ const collection = {
 	store
 };
 
-console.log(stringifyObject(collection));
 module.exports = stringifyObject(collection);
