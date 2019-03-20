@@ -23,4 +23,9 @@ const collection = {
 	store
 };
 
-module.exports = stringifyObject(collection);
+let Kony = {};
+Kony.component = collection.component;
+Kony.grid = collection.grid;
+Kony.store = collection.store;
+
+module.exports = stringifyObject(Kony);
