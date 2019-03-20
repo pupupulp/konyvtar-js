@@ -11,21 +11,16 @@
  */
 
 const component = require('./lib/component');
-const grid = require('./lib/grid');
 const store = require('./lib/store');
+const grid = require('./lib/grid');
+const combobox = require('./lib/combobox');
 
 const stringifyObject = require('stringify-object');
 
-const collection = {
-	supportedVersion: '6.2.0',
-	component,
-	grid,
-	store
-};
-
-let Kony = {};
-Kony.component = collection.component;
-Kony.grid = collection.grid;
-Kony.store = collection.store;
+let Kony = { supportedVersion: '6.2.0' };
+Kony.component = component;
+Kony.store = store;
+Kony.grid = grid;
+Kony.combobox = combobox;
 
 module.exports = stringifyObject(Kony);
