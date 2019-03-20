@@ -17,6 +17,7 @@ const combobox = require('./lib/combobox');
 const form = require('./lib/form');
 const button = require('./lib/button');
 const render = require('./lib/render');
+const ajax = require('./lib/ajax');
 
 const stringifyObject = require('stringify-object');
 
@@ -28,5 +29,6 @@ Kony.combobox = combobox;
 Kony.form = form;
 Kony.button = button;
 Kony.render = render;
+Kony.ajax = ajax;
 
 module.exports = stringifyObject(Kony);
