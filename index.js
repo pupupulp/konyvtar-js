@@ -18,6 +18,9 @@ const form = require('./lib/form');
 const button = require('./lib/button');
 const render = require('./lib/render');
 const ajax = require('./lib/ajax');
+const url = require('./lib/url');
+const task = require('./lib/task');
+const window = require('./lib/window');
 
 const stringifyObject = require('stringify-object');
 
@@ -30,5 +33,8 @@ Kony.form = form;
 Kony.button = button;
 Kony.render = render;
 Kony.ajax = ajax;
+Kony.url = url;
+Kony.task = task;
+Kony.window = window;
 
 module.exports = stringifyObject(Kony);
