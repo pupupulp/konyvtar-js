@@ -60,6 +60,20 @@ app.listen(3000);
 
 ## Documentation
 
+### Summary
+
+- Component
+- Store
+- Grid
+- Combobox
+- Form
+- Button
+- Render
+- Ajax
+- Url
+- Task
+- Window
+
 ### Features
 
 #### Component
