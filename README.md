@@ -1,4 +1,10 @@
 # konyvtar-js
+
+[![npm version](https://badgen.net/npm/v/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+[![npm downloads](https://badgen.net/npm/dm/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+[![node](https://badgen.net/npm/node/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+[![License](https://badgen.net/github/license/pupupulp/konvytar-js)](https://github.com/pupupulp/konyvtar-js/blob/master/LICENSE)
+
 An opensource library/package of code wrappers for ExtJS 6.2.0 GPL
 
 ## Quickstart
@@ -60,19 +66,19 @@ app.listen(3000);
 
 ## Documentation
 
-### Summary
+### Table of Contents
 
-- Component
-- Store
-- Grid
-- Combobox
-- Form
-- Button
-- Render
-- Ajax
-- Url
-- Task
-- Window
+- [Component](#component)
+- [Store](#store)
+- [Grid](#grid)
+- [Combobox](#combobox)
+- [Form](#form)
+- [Button](#button)
+- [Render](#render)
+- [Ajax](#ajax)
+- [Url](#url)
+- [Task](#task)
+- [Window](#window)
 
 ### Features
 
