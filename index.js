@@ -14,6 +14,7 @@ const component = require('./lib/component');
 const store = require('./lib/store');
 const grid = require('./lib/grid');
 const combobox = require('./lib/combobox');
+const form = require('./lib/form');
 
 const stringifyObject = require('stringify-object');
 
@@ -22,5 +23,6 @@ Kony.component = component;
 Kony.store = store;
 Kony.grid = grid;
 Kony.combobox = combobox;
+Kony.form = form;
 
 module.exports = stringifyObject(Kony);
