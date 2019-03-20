@@ -1,41 +1,55 @@
 # konyvtar-js
 An opensource library/package of code wrappers for ExtJS 6.2.0 GPL
 
-## Upcoming Functional Updates:
-- Combobox
-- Form
-- Button
-- Render
-- Ajax
-- Url
-- Task
-- Window
+## Documentation
 
-## Documentation: coming soon
+### Installation
 
-## Usage:
+`$ npm install --save konyvtar-js`
 
-@RouterJS
+### Usage:
 
-`const kony = require('konyvtar-js');`
+`const kony = require('konyvter-js');`
 
-* using template engines, pass `kony` to template
+### Example (Using express and express-es6-template-engine):
 
-* sample using express-es6-template-engine
+@app.js
 
-`const kony = require('konyvtar-js');`
-`res.render('main', { locals: { kony } });`
+```javascript
+const express = require('express');
+const es6Renderer = require('express-es6-template-engine');
+const kony = require('konyvtar-js');
 
-@Template
+const app = express();
 
-- put this script after loading of extjs in template
+app.engine('html', es6Renderer);
+app.set('views', 'views');
+app.set('view engine', 'html');
 
-`<script type="text/javascript"> var Kony = ${placeholder}; </script>`
+app.get('/', function (req, res) {
+    res.render('template', {
+        locals: {
+            kony
+        }
+    });
+});
 
-* sample using express-es6-template-engine
+app.listen(3000);
+```
 
-`<script type="text/javascript" src="/lib/extjs/ext-all.js"></script>`
-`<script type="text/javascript" src="/lib/extjs/classic/theme-triton/theme-triton.js"></script>`
-`<script type="text/javascript" src="/lib/extjs/packages/charts/classic/charts.js"></script>`
-`<script type="text/javascript" src="/lib/extjs/packages/ux/classic/ux.js"></script>`
-`<script type="text/javascript"> var Kony = ${kony}; </script>`
+@template.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/lib/extjs/ext-all.js"></script>
+    <script type="text/javascript" src="/lib/extjs/classic/theme-triton/theme-triton.js"></script>
+    <script type="text/javascript" src="/lib/extjs/packages/charts/classic/charts.js"></script>
+    <script type="text/javascript" src="/lib/extjs/packages/ux/classic/ux.js"></script>
+    <script type="text/javascript"> var Kony = ${kony}; </script>
+</head>
+<body>
+</body>
+</html>
+```
