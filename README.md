@@ -54,6 +54,10 @@ app.listen(3000);
 </html>
 ```
 
+### Running Tests
+
+`$ npm test`
+
 ## Documentation
 
 ### Features
@@ -628,3 +632,34 @@ Kony.window.getHeight();
  */
 Kony.window.getWidth();
 ```
+
+## About
+
+### Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/pupupulp/konyvtar-js/issues/new).
+
+### Related Projects
+
+You might want to checkout these projects:
+
+- [NchikotaJS](https://github.com/pupupulp/nchikota-js) - An opensource tech stack composed of ExpressJS, NodeJS, ExtJS.
+
+### Base Contributors
+
+- [Alfonse Dumadapat](https://github.com/papipons)
+- [Alona Ponce]()
+- [Jeff Canale](https://github.com/je-poy)
+- [Rey Anthony Paano](https://github.com/reypaano)
+
+### Contributors
+
+### Author
+
+**Eagan Martin**
+- [Github](https://github.com/pupupulp)
+- [LinkedIn]()
+
+### License
+
+Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [GPL-3.0 License](https://github.com/pupupulp/konyvtar-js/blob/master/README.md)
