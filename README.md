@@ -653,6 +653,97 @@ Kony.window.getHeight();
 Kony.window.getWidth();
 ```
 
+#### Message
+
+- **custom**
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.custom('Test', 'test', Ext.Msg.YESNO, Ext.Msg.QUESTION, function (){});
+ *
+ * @param {string} title
+ * @param {string} message
+ * @param {class} btn
+ * @param {class} icon
+ * @param {function} callback
+ */
+Kony.message.custom(title, message, btn, icon, callback);
+```
+
+- **alert**
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.alert('test');
+ *
+ * @param {string} message
+ */
+Kony.message.alert(message);
+```
+
+- **confirm**
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.confirm('test', function (){});
+ *
+ * @param {string} message
+ * @param {function} callback
+ */
+Kony.message.confirm(message, callback);
+```
+- **error**
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.error('test');
+ *
+ * @param {string} message
+ */
+Kony.message.error(message);
+```
+
+- **info**
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.info('test');
+ *
+ * @param {string} message
+ */
+Kony.message.info(message);
+```
+
+- **ask*
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.ask('test', function (){});
+ *
+ * @param {string} message
+ * @param {function} callback
+ */
+Kony.message.ask(message, callback);
+```
+
+- **warn**
+
+```javascript
+/**
+ * * Sample Usage:
+ * * Kony.message.warn('test');
+ *
+ * @param {string} message
+ */
+Kony.message.warn(message);
+```
+
 ## About
 
 ### Contributing

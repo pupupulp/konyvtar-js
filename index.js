@@ -21,6 +21,7 @@ const ajax = require('./lib/ajax');
 const url = require('./lib/url');
 const task = require('./lib/task');
 const window = require('./lib/window');
+const message = require('./lib/message');
 
 const stringifyObject = require('stringify-object');
 
@@ -36,5 +37,6 @@ Kony.ajax = ajax;
 Kony.url = url;
 Kony.task = task;
 Kony.window = window;
+Kony.message = message;
 
 module.exports = stringifyObject(Kony);
