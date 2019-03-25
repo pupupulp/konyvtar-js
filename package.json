@@ -1,6 +1,6 @@
 {
   "name": "konyvtar-js",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "An opensource library/package of code wrappers for ExtJS 6.2.0 GPL",
   "main": "index.js",
   "engines": {
