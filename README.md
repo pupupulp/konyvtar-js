@@ -1,8 +1,15 @@
 # konyvtar-js
 
 [![npm version](https://badgen.net/npm/v/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+[![npm downloads](https://badgen.net/npm/dw/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
 [![npm downloads](https://badgen.net/npm/dm/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+[![npm downloads](https://badgen.net/npm/dy/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+[![npm downloads](https://badgen.net/npm/dt/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
 [![node](https://badgen.net/npm/node/konyvtar-js)](https://www.npmjs.com/package/konyvtar-js)
+![contributors](https://badgen.net/github/contributors/pupupulp/konyvtar-js)
+![stars](https://badgen.net/github/stars/pupupulp/konyvtar-js)
+![commits](https://badgen.net/github/commits/pupupulp/konyvtar-js)
+![last commit](https://badgen.net/github/last-commit/pupupulp/konyvtar-js)
 [![License](https://badgen.net/github/license/pupupulp/konyvtar-js)](https://github.com/pupupulp/konyvtar-js/blob/master/LICENSE)
 
 An opensource library/package of code wrappers for ExtJS 6.2.0 GPL
