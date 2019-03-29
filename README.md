@@ -466,7 +466,15 @@ Kony.grid.reload(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.combobox.get('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'combobox',
+ * *    reference: 'sample-combobox'
+ * * }
+ *
+ * * @Controller
+ * * Kony.combobox.get('sample-combobox');
  *
  * @param {string} reference
  */
@@ -478,7 +486,15 @@ Kony.combobox.get(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.combobox.setup('reference', 'url', { key: value });
+ *
+ * * @View
+ * * {
+ * *    xtype: 'combobox',
+ * *    reference: 'sample-combobox'
+ * * }
+ *
+ * * @Controller
+ * * Kony.combobox.setup('sample-combobox', '/contries', { region: southeast });
  *
  * @param {string} reference
  * @param {string} storeUrl
@@ -491,7 +507,15 @@ Kony.combobox.setup(reference, storeUrl, filters);
 
 ```javascript
 /**
- * * Sample Usage: Kony.combobox.getRecordById('reference', 2);
+ *
+ * * @View
+ * * {
+ * *    xtype: 'combobox',
+ * *    reference: 'sample-combobox'
+ * * }
+ *
+ * * @Controller
+ * * Sample Usage: Kony.combobox.getRecordById('sample-combobox', 2);
  *
  * @param {string} reference
  * @param {number} id
