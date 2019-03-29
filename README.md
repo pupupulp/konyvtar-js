@@ -322,7 +322,15 @@ Kony.grid.render.mdyDate();
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.get('grid-reference-value');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-grid'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.get('sample-grid');
  *
  * @param {string} reference
  */
@@ -334,7 +342,15 @@ Kony.grid.get(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.setup('reference', 'url', { key: value });
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.setup('sample-button', '/users', { active: true });
  *
  * @param {string} reference
  * @param {string} storeUrl
@@ -348,7 +364,15 @@ Kony.grid.setup(reference, storeUrl, filters);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.clear('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-grid'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.clear('sample-grid');
  *
  * @param {string} reference
  */
@@ -360,7 +384,15 @@ Kony.grid.clear(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.getSelection('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-grid'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.getSelection('sample-grid');
  *
  * @param {string} reference
  */
@@ -372,7 +404,15 @@ Kony.grid.getSelection(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.clearSelection('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-grid'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.clearSelection('sample-grid');
  *
  * @param {string} reference
  */
@@ -384,7 +424,15 @@ Kony.grid.clearSelection(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.getStore('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-grid'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.getStore('sample-grid');
  *
  * @param {string} reference
  */
@@ -396,7 +444,15 @@ Kony.grid.getStore(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.grid.reload('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    reference: 'sample-grid'
+ * * }
+ *
+ * * @Controller
+ * * Kony.grid.reload('sample-grid');
  *
  * @param {string} reference
  */
