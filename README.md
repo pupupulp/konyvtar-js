@@ -89,7 +89,15 @@ app.listen(3000);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.component.query('button[property = value]');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Kony.component.query('button[reference = sample-button]');
  *
  * @param {string} queryString
  */
@@ -101,7 +109,15 @@ Kony.component.query(queryString);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.component.reference('button', 'button-reference-value');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Kony.component.reference('button', 'sample-button');
  *
  * @param {string} component
  * @param {string} reference
