@@ -677,7 +677,15 @@ Kony.form.getInvalidFields(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.button.get('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Kony.button.get('sample-button');
  *
  * @param {string} reference
  */
@@ -689,7 +697,15 @@ Kony.button.get(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.button.disable('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Kony.button.disable('sample-button');
  *
  * @param {string} reference
  */
@@ -701,7 +717,15 @@ Kony.button.disable(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.button.enable('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Kony.button.enable('sample-button');
  *
  * @param {string} reference
  */
