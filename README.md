@@ -188,61 +188,131 @@ Kony.store.local(records);
 ```javascript
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.default();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Name', renderer: Kony.grid.render.default() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.default();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.qTip();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Name', renderer: Kony.grid.render.qTip() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.qTip();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.checkColumn();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Is Active', renderer: Kony.grid.render.checkColumn() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.checkColumn();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.yesNo();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Is Active', renderer: Kony.grid.render.yesNo() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.yesNo();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.currency();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Loan Balance', renderer: Kony.grid.render.currency() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.currency();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.accurate();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Installment Flat Rate', renderer: Kony.grid.render.accurate() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.accurate();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.fullDate();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Birthday', renderer: Kony.grid.render.fullDate() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.fullDate();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.ymdDate();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Birthday', renderer: Kony.grid.render.ymdDate() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.ymdDate();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.dmyDate();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Birthday', renderer: Kony.grid.render.dmyDate() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.dmyDate();
 
 /**
  * * Sample Usage:
- * * renderer: Kony.grid.render.mdyDate();
+ *
+ * * @View
+ * * {
+ * *    xtype: 'grid',
+ * *    columns: [
+ * *        { text: 'Birthday', renderer: Kony.grid.render.mdyDate() }
+ * *    ]
+ * * }
  */
 Kony.grid.render.mdyDate();
 ```
