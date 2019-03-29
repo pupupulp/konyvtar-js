@@ -132,7 +132,9 @@ Kony.component.reference(component, reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.store.create('url', { key: value }, component, true, 25);
+ *
+ * * @Controller
+ * * Kony.store.create('/users', { active: true }, grid, true, 25);
  *
  * @param {string} url
  * @param {object} extraParams
@@ -148,7 +150,9 @@ Kony.store.create(url, extraParams, component, autoLoad, pageSize);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.store.tree('url', { key: value }, component, true, true);
+ *
+ * * @Controller
+ * * Kony.store.tree('/menus', { userId: 2 }, grid, true, true);
  *
  * @param {string} url
  * @param {object} extraParams
@@ -164,7 +168,13 @@ Kony.store.tree(url, extraParams, component, autoLoad, folderSort);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.store.local([]);
+ *
+ * * @Controller
+ * * var employees = [
+ * *    { name: 'John Doe' },
+ * *    { name: 'Jane Doe' }
+ * * ];
+ * * Kony.store.local(employees);
  *
  * @param {array} records
  */
