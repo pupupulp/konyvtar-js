@@ -850,7 +850,9 @@ Kony.render.formatDate(value, format);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.ajax.request('url', 'GET', { key: value }, function (){}, function (){}, false);
+ *
+ * * @Controller
+ * * Kony.ajax.request('/login', 'POST', { user: john, pass: doe }, function (){}, function (){}, false);
  *
  * @param {string} url
  * @param {string} method
@@ -869,7 +871,9 @@ Kony.ajax.request(url, method, params, sucessCallback, failureCallback, async);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.url.convertObjectToQuery({ key: value });
+ *
+ * * @Controller
+ * * Kony.url.convertObjectToQuery({ user: john, pass: doe });
  *
  * @param {object} params
  */
@@ -883,6 +887,8 @@ Kony.url.convertObjectToQuery(params);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.task.create(function (){});
  *
  * @param {function} callback
@@ -897,6 +903,8 @@ Kony.task.create(callback);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.window.getHeight();
  */
 Kony.window.getHeight();
@@ -907,6 +915,8 @@ Kony.window.getHeight();
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.window.getWidth();
  */
 Kony.window.getWidth();
@@ -919,6 +929,8 @@ Kony.window.getWidth();
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.custom('Test', 'test', Ext.Msg.YESNO, Ext.Msg.QUESTION, function (){});
  *
  * @param {string} title
@@ -935,6 +947,8 @@ Kony.message.custom(title, message, btn, icon, callback);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.alert('test');
  *
  * @param {string} message
@@ -947,6 +961,8 @@ Kony.message.alert(message);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.confirm('test', function (){});
  *
  * @param {string} message
@@ -954,11 +970,14 @@ Kony.message.alert(message);
  */
 Kony.message.confirm(message, callback);
 ```
+
 - **error**
 
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.error('test');
  *
  * @param {string} message
@@ -971,6 +990,8 @@ Kony.message.error(message);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.info('test');
  *
  * @param {string} message
@@ -983,6 +1004,8 @@ Kony.message.info(message);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.ask('test', function (){});
  *
  * @param {string} message
@@ -996,6 +1019,8 @@ Kony.message.ask(message, callback);
 ```javascript
 /**
  * * Sample Usage:
+ *
+ * * @Controller
  * * Kony.message.warn('test');
  *
  * @param {string} message
