@@ -530,7 +530,15 @@ Kony.combobox.getRecordById(reference, id);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.get('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * Kony.form.get('sample-form');
  *
  * @param {string} reference
  */
@@ -542,7 +550,15 @@ Kony.form.get(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.getValues('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * Kony.form.getValues('sample-form');
  *
  * @param {string} reference
  */
@@ -554,10 +570,21 @@ Kony.form.getValues(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.loadRecord('reference', []);
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * var employee = {
+ * *    data: { name: 'John Doe' }
+ * * };
+ * * Kony.form.loadRecord('sample-form', employee);
  *
  * @param {string} reference
- * @param {array} record
+ * @param {object} record
  */
 Kony.form.loadRecord(reference, record);
 ```
@@ -567,7 +594,15 @@ Kony.form.loadRecord(reference, record);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.setReadOnly('reference', true);
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * Kony.form.setReadOnly('sample-form', true);
  *
  * @param {string} reference
  * @param {boolean} isReadOnly
@@ -580,7 +615,15 @@ Kony.form.setReadOnly(reference, isReadOnly);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.clear('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * Kony.form.clear('sample-form');
  *
  * @param {string} reference
  */
@@ -592,7 +635,15 @@ Kony.form.clear(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.isValid('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * Kony.form.isValid('sample-form');
  *
  * @param {string} reference
  */
@@ -604,7 +655,15 @@ Kony.form.isValid(reference);
 ```javascript
 /**
  * * Sample Usage:
- * * Kony.form.getInvalidFields('reference');
+ *
+ * * @View
+ * * {
+ * *    xtype: 'form',
+ * *    reference: 'sample-form'
+ * * }
+ *
+ * * @Controller
+ * * Kony.form.getInvalidFields('sample-form');
  *
  * @param {string} reference
  */
