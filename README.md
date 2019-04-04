@@ -20,7 +20,7 @@ An opensource library/package of code wrappers for ExtJS 6.2.0 GPL
 
 `$ npm install --save konyvtar-js`
 
-### Usage:
+### Usage (NPM):
 
 `const kony = require('konyvter-js');`
 
@@ -61,6 +61,25 @@ app.listen(3000);
     <script type="text/javascript" src="/lib/extjs/packages/charts/classic/charts.js"></script>
     <script type="text/javascript" src="/lib/extjs/packages/ux/classic/ux.js"></script>
     <script type="text/javascript"> var Kony = ${kony}; </script>
+</head>
+<body>
+</body>
+</html>
+```
+
+### Usage (Single File):
+
+@template.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/lib/extjs/ext-all.js"></script>
+    <script type="text/javascript" src="/lib/extjs/classic/theme-triton/theme-triton.js"></script>
+    <script type="text/javascript" src="/lib/extjs/packages/charts/classic/charts.js"></script>
+    <script type="text/javascript" src="/lib/extjs/packages/ux/classic/ux.js"></script>
+    <script type="text/javascript" src="/path/to/konyvtar.js</script>
 </head>
 <body>
 </body>
