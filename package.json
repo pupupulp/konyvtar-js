@@ -57,5 +57,6 @@
   "homepage": "https://github.com/pupupulp/konyvtar-js#readme",
   "dependencies": {
     "stringify-object": "^3.3.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
