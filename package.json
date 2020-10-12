@@ -1,5 +1,5 @@
 {
-  "name": "konyvtar-js",
+  "name": "@pupupulp/konyvtar-js",
   "version": "1.5.1",
   "description": "An opensource library/package of code wrappers for ExtJS 6.2.0 GPL",
   "main": "index.js",
